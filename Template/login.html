@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+</head>
+<body>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    div{
+      color:white
+    }
+    body{
+      background: black;
+      display: flex;
+      flex-direction: column;
+    }
+.main_head{
+  font-size:25px;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+.main_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  height: 600px;
+  width: 600px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px rgb(45, 188, 45)
+}
+input{
+  width: 500px;
+  margin-top: 50px;
+  border-radius: 8px;
+  padding: 10px;
+}
+.buttons{
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+button{
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+  </style>
+
+  <div class="main_head">Student Login</div>
+
+  <div class="main_div">
+    <input type="text" class="username" placeholder="username">
+    <input type="text" class="password" placeholder="Password">
+<div class="buttons">
+    <button type="button">Log In</button>
+    
+  </div>
+  </div>
+  
+</body>
+</html>
